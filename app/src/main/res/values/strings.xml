@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MotionLayoutExample</string>
+
+    <string name="ex01_basic">01. Basic</string>
+    <string-array name="main_dataset">
+        <item>@string/ex01_basic</item>
+    </string-array>
 </resources>
