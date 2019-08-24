@@ -2,7 +2,9 @@
     <string name="app_name">MotionLayoutExample</string>
 
     <string name="ex01_basic">01. Basic</string>
+    <string name="ex02_colorchange">02. Color Change</string>
     <string-array name="main_dataset">
         <item>@string/ex01_basic</item>
+        <item>@string/ex02_colorchange</item>
     </string-array>
 </resources>

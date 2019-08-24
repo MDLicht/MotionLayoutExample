@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.mdlicht.zb.motionlayoutexample.R
 import com.mdlicht.zb.motionlayoutexample.ex01basic.Ex01BasicActivity
+import com.mdlicht.zb.motionlayoutexample.ex02colorchange.Ex02ColorChangeActivity
 import kotlinx.android.synthetic.main.item_main_viewholder.view.*
 
 class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
@@ -31,6 +32,9 @@ class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         when(title) {
             context.getString(R.string.ex01_basic) -> {
                 context.startActivity(Intent(context, Ex01BasicActivity::class.java))
+            }
+            context.getString(R.string.ex02_colorchange) -> {
+                context.startActivity(Intent(context, Ex02ColorChangeActivity::class.java))
             }
         }
     }

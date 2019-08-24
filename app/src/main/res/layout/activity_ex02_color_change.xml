@@ -5,14 +5,14 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutDescription="@xml/ex01_basic_motion"
-        tools:context=".ex01basic.Ex01BasicActivity">
+        app:layoutDescription="@xml/ex02_color_change_motion"
+        tools:context=".ex02colorchange.Ex02ColorChangeActivity">
 
     <View
             android:id="@+id/view"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@color/colorPrimaryRed"
+            android:background="@color/colorPrimaryBlack"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
