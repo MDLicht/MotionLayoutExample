@@ -3,8 +3,10 @@
 
     <string name="ex01_basic">01. Basic</string>
     <string name="ex02_colorchange">02. Color Change</string>
+    <string name="ex03_image_filter_view">03. Image Filter View</string>
     <string-array name="main_dataset">
         <item>@string/ex01_basic</item>
         <item>@string/ex02_colorchange</item>
+        <item>@string/ex03_image_filter_view</item>
     </string-array>
 </resources>

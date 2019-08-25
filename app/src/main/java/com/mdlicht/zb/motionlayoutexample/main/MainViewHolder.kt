@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.mdlicht.zb.motionlayoutexample.Ex03ImageFilterView.Ex03ImageFilterViewActivity
 import com.mdlicht.zb.motionlayoutexample.R
 import com.mdlicht.zb.motionlayoutexample.ex01basic.Ex01BasicActivity
 import com.mdlicht.zb.motionlayoutexample.ex02colorchange.Ex02ColorChangeActivity
@@ -35,6 +36,9 @@ class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
             }
             context.getString(R.string.ex02_colorchange) -> {
                 context.startActivity(Intent(context, Ex02ColorChangeActivity::class.java))
+            }
+            context.getString(R.string.ex03_image_filter_view) -> {
+                context.startActivity(Intent(context, Ex03ImageFilterViewActivity::class.java))
             }
         }
     }

@@ -9,8 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ex02colorchange.Ex02ColorChangeActivity"></activity>
-        <activity android:name=".ex01basic.Ex01BasicActivity"></activity>
+        <activity android:name=".Ex03ImageFilterView.Ex03ImageFilterViewActivity"></activity>
+        <activity android:name=".ex02colorchange.Ex02ColorChangeActivity" />
+        <activity android:name=".ex01basic.Ex01BasicActivity" />
         <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
