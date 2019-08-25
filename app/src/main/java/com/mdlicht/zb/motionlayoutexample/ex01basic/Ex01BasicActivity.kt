@@ -9,5 +9,6 @@ class Ex01BasicActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex01_basic)
+        supportActionBar?.title = getString(R.string.ex01_basic)
     }
 }

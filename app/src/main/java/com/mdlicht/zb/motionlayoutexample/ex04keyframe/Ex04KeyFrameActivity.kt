@@ -9,5 +9,6 @@ class Ex04KeyFrameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex04_key_frame)
+        supportActionBar?.title = getString(R.string.ex04_keyframe)
     }
 }

@@ -9,5 +9,6 @@ class Ex03ImageFilterViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex03_image_filter_view)
+        supportActionBar?.title = getString(R.string.ex03_image_filter_view)
     }
 }

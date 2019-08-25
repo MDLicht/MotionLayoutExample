@@ -9,5 +9,6 @@ class Ex02ColorChangeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ex02_color_change)
+        supportActionBar?.title = getString(R.string.ex02_colorchange)
     }
 }
