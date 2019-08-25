@@ -6,11 +6,13 @@
     <string name="ex03_image_filter_view">03. Image Filter View</string>
     <string name="ex04_keyframe">04. Key Frame</string>
     <string name="ex05_keyframe2">05. Key Frame2</string>
+    <string name="ex06_collapsing_toolbar">06. Collapsing Toolbar</string>
     <string-array name="main_dataset">
         <item>@string/ex01_basic</item>
         <item>@string/ex02_colorchange</item>
         <item>@string/ex03_image_filter_view</item>
         <item>@string/ex04_keyframe</item>
         <item>@string/ex05_keyframe2</item>
+        <item>@string/ex06_collapsing_toolbar</item>
     </string-array>
 </resources>

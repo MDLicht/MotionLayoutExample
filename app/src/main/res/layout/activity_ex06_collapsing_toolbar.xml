@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ex06collapsingtoolbar.Ex06CollapsingToolbarActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/appbar_height">
+
+        <include
+            layout="@layout/ex06_collapsing_toolbar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/long_text"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:lineSpacingMultiplier="1.1"
+                android:textColor="@color/colorPrimaryBlack"/>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

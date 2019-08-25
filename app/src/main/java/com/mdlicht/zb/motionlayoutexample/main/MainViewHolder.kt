@@ -12,6 +12,7 @@ import com.mdlicht.zb.motionlayoutexample.ex01basic.Ex01BasicActivity
 import com.mdlicht.zb.motionlayoutexample.ex02colorchange.Ex02ColorChangeActivity
 import com.mdlicht.zb.motionlayoutexample.ex04keyframe.Ex04KeyFrameActivity
 import com.mdlicht.zb.motionlayoutexample.ex05keyframe2.Ex05KeyFrame2Activity
+import com.mdlicht.zb.motionlayoutexample.ex06collapsingtoolbar.Ex06CollapsingToolbarActivity
 import kotlinx.android.synthetic.main.item_main_viewholder.view.*
 
 class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
@@ -47,6 +48,9 @@ class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
             }
             context.getString(R.string.ex05_keyframe2) -> {
                 context.startActivity(Intent(context, Ex05KeyFrame2Activity::class.java))
+            }
+            context.getString(R.string.ex06_collapsing_toolbar) -> {
+                context.startActivity(Intent(context, Ex06CollapsingToolbarActivity::class.java))
             }
         }
     }

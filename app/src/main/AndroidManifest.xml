@@ -9,7 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ex05keyframe2.Ex05KeyFrame2Activity"></activity>
+        <activity android:name=".ex06collapsingtoolbar.Ex06CollapsingToolbarActivity"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".ex05keyframe2.Ex05KeyFrame2Activity" />
         <activity android:name=".ex04keyframe.Ex04KeyFrameActivity" />
         <activity android:name=".Ex03ImageFilterView.Ex03ImageFilterViewActivity" />
         <activity android:name=".ex02colorchange.Ex02ColorChangeActivity" />

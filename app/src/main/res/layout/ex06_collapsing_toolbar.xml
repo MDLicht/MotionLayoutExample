@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mdlicht.zb.motionlayoutexample.ex06collapsingtoolbar.CollapsibleToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        app:layoutDescription="@xml/ex06_collapsing_toolbar_motion"
+        app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+
+    <ImageView
+            android:id="@+id/background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@drawable/brown" />
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="MDLicht"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/icon"
+            app:layout_constraintStart_toStartOf="@+id/icon"
+            app:layout_constraintTop_toBottomOf="@+id/icon" />
+
+    <android.support.constraint.Guideline
+            android:id="@+id/collapseGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="?attr/actionBarSize" />
+</com.mdlicht.zb.motionlayoutexample.ex06collapsingtoolbar.CollapsibleToolbar>
