@@ -5,10 +5,12 @@
     <string name="ex02_colorchange">02. Color Change</string>
     <string name="ex03_image_filter_view">03. Image Filter View</string>
     <string name="ex04_keyframe">04. Key Frame</string>
+    <string name="ex05_keyframe2">05. Key Frame2</string>
     <string-array name="main_dataset">
         <item>@string/ex01_basic</item>
         <item>@string/ex02_colorchange</item>
         <item>@string/ex03_image_filter_view</item>
         <item>@string/ex04_keyframe</item>
+        <item>@string/ex05_keyframe2</item>
     </string-array>
 </resources>
