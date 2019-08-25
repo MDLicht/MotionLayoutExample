@@ -10,6 +10,7 @@ import com.mdlicht.zb.motionlayoutexample.Ex03ImageFilterView.Ex03ImageFilterVie
 import com.mdlicht.zb.motionlayoutexample.R
 import com.mdlicht.zb.motionlayoutexample.ex01basic.Ex01BasicActivity
 import com.mdlicht.zb.motionlayoutexample.ex02colorchange.Ex02ColorChangeActivity
+import com.mdlicht.zb.motionlayoutexample.ex04keyframe.Ex04KeyFrameActivity
 import kotlinx.android.synthetic.main.item_main_viewholder.view.*
 
 class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
@@ -39,6 +40,9 @@ class MainViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
             }
             context.getString(R.string.ex03_image_filter_view) -> {
                 context.startActivity(Intent(context, Ex03ImageFilterViewActivity::class.java))
+            }
+            context.getString(R.string.ex04_keyframe) -> {
+                context.startActivity(Intent(context, Ex04KeyFrameActivity::class.java))
             }
         }
     }
