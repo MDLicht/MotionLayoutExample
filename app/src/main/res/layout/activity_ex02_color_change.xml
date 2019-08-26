@@ -6,6 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutDescription="@xml/ex02_color_change_motion"
+        app:showPaths="true"
         tools:context=".ex02colorchange.Ex02ColorChangeActivity">
 
     <View

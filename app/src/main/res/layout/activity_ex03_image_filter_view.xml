@@ -6,6 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutDescription="@xml/ex03_image_filter_view_motion"
+        app:showPaths="true"
         tools:context=".Ex03ImageFilterView.Ex03ImageFilterViewActivity">
 
     <android.support.constraint.utils.ImageFilterView
